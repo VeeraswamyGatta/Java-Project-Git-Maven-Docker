@@ -30,6 +30,7 @@ CMD ["java", "-jar", "WordsCountApp-1.0-SNAPSHOT.jar", "dictonary.txt", "input_f
 -----------------------------------------------------------------------------------
 
 Step 2: build the image 
+
  docker build . -t words-image
  
  Step 3: docker run words-image:latest
@@ -37,9 +38,17 @@ Step 2: build the image
  Output : 
  
 Matched Words  aapxj
+
 Matched Words  aapxj
+
 Matched Words  dnrbt
+
 Matched Words  dnrbt
+
 Matched Words  pxjdn
+
 Matched Words  pxjdn
+
 Distinct Matched Words count 4
+
+
